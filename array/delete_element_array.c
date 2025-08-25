@@ -36,7 +36,7 @@ int main()
     before_delete_element(arr,number_of_element);
     printf("Saisir la position\n");
     scanf("%d",&pos);
-    int new_lenght =     after_delete_element(arr,number_of_element,pos);
+    int new_lenght = after_delete_element(arr,number_of_element,pos);
     for (int i = 0; i < new_lenght; i++)
     {
         printf("%d ",arr[i]);
